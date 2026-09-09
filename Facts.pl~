@@ -1,0 +1,12 @@
+%fact
+likes(anjali,sakshi).
+likes(sakshi,anjali).
+likes(rachana,teju).
+
+%rules
+friendship(A,B):-
+    likes(A,B),
+    likes(B,A).
+
+
+

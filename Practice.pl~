@@ -1,0 +1,11 @@
+%fact
+brother(ayush,sai).
+sister(anjali,rachana).
+siblings(anjali,ayush).
+
+%rules
+siblings(A,B):-
+    brother(A,B),
+    sister(A,B).
+
+
