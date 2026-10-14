@@ -1,3 +1,5 @@
+%fact
+
 book(c_programming, computer).
 book(data_structure, computer).
 book(java, programming).
@@ -7,6 +9,8 @@ reader(sakshi, programming).
 reader(rachana, computer).
 reader(tejaswini, programming).
 reader(swara, computer).
+
+%rule
 
 book_reader(Book, Reader) :-
     book(Book, Subject),
